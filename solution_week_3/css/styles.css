@@ -31,7 +31,6 @@ body {
 }
 #nav-list a {
   color: #951C49;
-  text-align: center;
   border-bottom: 1px solid #fff;
 }
 #nav-list a:hover {
