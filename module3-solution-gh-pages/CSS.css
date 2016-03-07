@@ -1,0 +1,269 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  background-color: black;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #0040ff;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* food */
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: -50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  text-align: center;
+}
+
+#ourmenu {
+  color: #0040ff;
+  font-family: 'Lora', serif;
+  color: #0040ff;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: center;
+  margin: 30px;
+}
+
+#back {
+  color: #00ff00;
+  font-family: 'Lora', serif;
+  font-size: .9em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: right;
+  margin: 10px;
+}
+
+.text-center h1 { 
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding: 10px;
+  text-align: center;
+}
+.navbar-menu h1 {     /* menues */
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #000080;
+  border-bottom: 2px;
+  border-color: black;
+  line-height: .75;
+  text-align: center;
+  margin: 30px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {         /* Menu List */
+  margin-top: 10px;
+  background: #0040ff;
+}
+#nav-list a {
+  color: #ffffff;
+  font-family: 'Lora', serif;
+  font-size: .9em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #000080;
+}
+#nav-list {
+  font-size: 1.3em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+.text-center {
+    text-align: center;
+}
+.h2, h2 , br{
+    padding: 15px;
+    font-family: 'Lora', serif;
+    text-shadow: 1px 1px 1px #222;
+    background: #000080;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+h3 {
+    color: #ffff00;
+    padding: 5px;
+    font-family: 'Lora', serif;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 20px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+#paragraph1 , #paragraph2 , #paragraph3 {
+    background-color: #0040ff;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    height: 675px;
+  }
+  #nav-list , #back , h3{
+   display: none;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .col-lg-12 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav-list , #back , h3{
+   display: none;
+  }
+  .container .jumbotron {
+    height: 558px;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  /* End Home Page */
+  .col-lg-12 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-list , #back , h3{
+   display: none;
+  }
+  .container .jumbotron {
+    height: 432px;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  /* End Home Page */
+.col-lg-12 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Food */
+    padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+    text-align: center;
+  }
+
+  #collapsable-nav span { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+  }
+  #collapsable-nav span span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    padding: 0;
+  }
+  .col-lg-12 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbar-brand h1 { /* food */
+  margin-top: 10px;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /*Food */
+    font-size: 6vw;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  /* End Header */
+.col-lg-12 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+}
+
